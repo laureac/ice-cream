@@ -85,10 +85,10 @@ function addItemToCart(title, price, image){
 }
 
 function  updateCart(){
-    const cartItemContainer = document.getElementsByClassName('cart-items')[0]
+    const cartItemContainer = document.getElementsByClassName('cart-items')[0];
     const cartRows = cartItemContainer.getElementsByClassName('cart-row');
-    const total = 0
-    for(const i=0; i < cartRows.length; i++){
+    let total = 0
+    for(let i=0; i < cartRows.length; i++){
     let cartRow= cartRows[i]
     let priceElement = cartRow.getElementsByClassName('cart-price')[0];
     let quantityElement = cartRow.getElementsByClassName('cart-quantity-input')[0];
