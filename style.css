@@ -46,13 +46,13 @@ html, body {
 
 .main-header {
     background-color: #342ead;
-    background-blend-mode: multiply;
     border-radius: 0 0 25px 20px;
 }
 .brand{
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 .brand-name{
     text-align: center;
@@ -306,4 +306,8 @@ html, body {
 }
 .small{
     font-size: 30px;
+}
+.cup{
+    transform: rotate(-10deg);
+    margin: 1em;
 }
